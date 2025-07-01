@@ -1,14 +1,30 @@
 /* card count */
 
 .card-count {
- max-width: 310px;
- background: #000;
+    max-width: 310px;
+}
+
+.card-count h2 {
+    color: var(--gray);
+    font-style: italic;
+    line-height: 100%;
+}
+
+
+.card-count span{
+    letter-spacing: 2px;
+    color: var(--gray-700);
+    text-transform: uppercase;
+}
+
+.card-count p{
+    line-height: 32px;
 }
 
 
 /* card service */
 
 .card-service {
- max-width: 420px;
- background: green;
+    max-width: 420px;
+    background: green;
 }
