@@ -1,12 +1,13 @@
-@import './assets/css/variables.css';
-@import './assets/css/global.css';
-@import './assets/css/typography.css';
+@import "./assets/css/variables.css";
+@import "./assets/css/global.css";
+@import "./assets/css/typography.css";
 
 /* Import components here.. */
-@import './assets/css/components/button.css';
-@import './assets/css/components/cards.css';
-@import './assets/css/components/header.css';
-@import './assets/css/components/block-title.css';
+@import "./assets/css/components/button.css";
+@import "./assets/css/components/cards.css";
+@import "./assets/css/components/header.css";
+@import "./assets/css/components/block-title.css";
 
 /* Import pages here.. */
-@import './assets/css/pages/home.css';
+@import "./assets/css/pages/home.css";
+@import "./assets/css/pages/contact.css";

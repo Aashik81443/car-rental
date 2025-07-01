@@ -1,18 +1,15 @@
-.block-title {
- margin-bottom: 20px;
-}
+
 
 .block-title h2 {
- margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .block-title.type-white h2 {
- color: var(--white);
+  color: var(--white);
 }
 
 @media (min-width: 1024px) {
-
- .block-title {
-  margin-bottom: 30px;
- }
+  .btn.btn-primary {
+    font-size: 16px;
+  }
 }
