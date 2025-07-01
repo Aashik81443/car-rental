@@ -1,3 +1,23 @@
 .site-header {
- background-color: var(--primary);
+ background-color: var(--white);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+.navbar-links{
+ display: flex;
+ gap:40px;
+
+}
+
+.navbar-links a{
+ text-decoration: none;
+ color: var(--gray-700);
+}
+
+.navbar-links a.active{
+  border-bottom: 2px solid var(--brown-200);
+ display: inline-block;
 }

@@ -15,6 +15,7 @@
  --gray-800: #222222;
  --gray-900: #2E2E2E;
  --brown: #9E8464;
+  --brown-200:#BCBCBC;
 
  --primary: var(--brown);
  --secondary: var(--gray-900);
