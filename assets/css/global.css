@@ -12,3 +12,17 @@ body {
  color: var(--gray-500);
  font-weight: 400;
 }
+
+
+/* container  */
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 19.375rem;
+}
+
+/* @media (min-width: 1300px) {
+    .container {
+        max-width: 1300px ;
+    }
+} */
