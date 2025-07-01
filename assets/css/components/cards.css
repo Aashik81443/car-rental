@@ -45,6 +45,34 @@
 
 }
 
+/* card info*/
+.card-info{
+    max-width:310px;
+    height:332px
+}
+.card-info img {
+  width: 310px;
+  height: 210px;
+}
+.card-content {
+  width:310px;
+  height:112px;
+  text-align: center;
+}
+.card-title{
+     font-family: var(--font-base);
+     font-size: 26px;
+}
+.card-price{
+    font-family: var(--font-base);
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn-wrap{
+  margin-top:16px;
+}
+
+
  /* card pricing  */
 .card-pricing{
  max-width: 420px;
