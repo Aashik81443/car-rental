@@ -1,0 +1,11 @@
+@import './assets/css/variables.css';
+@import './assets/css/global.css';
+@import './assets/css/typography.css';
+
+/* Import components here.. */
+@import './assets/css/components/button.css';
+@import './assets/css/components/cards.css';
+@import './assets/css/components/header.css';
+
+/* Import pages here.. */
+@import './assets/css/pages/home.css';
