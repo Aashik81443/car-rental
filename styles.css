@@ -6,6 +6,7 @@
 @import './assets/css/components/button.css';
 @import './assets/css/components/cards.css';
 @import './assets/css/components/header.css';
+@import './assets/css/components/block-title.css';
 
 /* Import pages here.. */
 @import './assets/css/pages/home.css';

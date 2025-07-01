@@ -1,0 +1,14 @@
+/* card count */
+
+.card-count {
+ max-width: 310px;
+ background: #000;
+}
+
+
+/* card service */
+
+.card-service {
+ max-width: 420px;
+ background: green;
+}

@@ -3,15 +3,61 @@
 h1,
 .h1,
 h2,
-.h2 {
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
  font-weight: 700;
  color: var(--secondary);
+ margin-bottom: 1rem;
 
 }
 
 h1,
 .h1 {
- font-size: 3.9375rem;
- line-height: 1.46;
+ font-size: 40px;
+ line-height: 1.26;
  letter-spacing: 3px;
+
+}
+
+h2,
+.h2 {
+ font-size: 34px;
+ line-height: 1.26;
+}
+
+
+/* Tablet */
+@media (min-width: 768px) {
+
+ h1,
+ .h1 {
+  font-size: 48px;
+ }
+
+ h2,
+ .h2 {
+  font-size: 38px;
+ }
+}
+
+/* laptops */
+
+@media (min-width: 1024px) {
+
+ h1,
+ .h1 {
+  font-size: 63px;
+ }
+
+ h2,
+ .h2 {
+  font-size: 46px;
+ }
 }

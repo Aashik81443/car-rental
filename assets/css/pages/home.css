@@ -1,0 +1,12 @@
+.block-contact {
+ background-color: var(--black);
+ padding: 100px 0;
+ text-align: center;
+}
+
+.block-contact .content{
+ color: var(--white);
+ max-width: 661px;
+ margin-left: auto;
+ margin-right: auto;
+}

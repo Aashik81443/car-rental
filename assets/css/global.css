@@ -13,16 +13,37 @@ body {
  font-weight: 400;
 }
 
-
-/* container  */
-.container{
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 0 19.375rem;
+p {
+ margin-bottom: 1rem;
 }
 
-/* @media (min-width: 1300px) {
-    .container {
-        max-width: 1300px ;
-    }
-} */
+p:last-of-type {
+ margin-bottom: 0;
+}
+
+
+/* container  */
+.container {
+ max-width: 1332px;
+ margin: 0 auto;
+ padding: 0 16px;
+}
+
+
+/* global classes */
+
+.w-full {
+ width: 100% !important;
+}
+
+.text-center {
+ text-align: center;
+}
+
+.text-right {
+ text-align: right;
+}
+
+hr {
+ margin: 10px 0;
+}
