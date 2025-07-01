@@ -21,6 +21,13 @@ p:last-of-type {
  margin-bottom: 0;
 }
 
+img{
+ vertical-align: middle;
+ width: auto;
+ height: auto;
+ max-width: 100%;
+}
+
 
 /* container  */
 .container {
