@@ -45,6 +45,74 @@
 
 }
 
+/* card info*/
+.card-info{
+    max-width:310px;
+    height:332px
+}
+.card-info img {
+  width: 310px;
+  height: 210px;
+}
+.card-content {
+  width:310px;
+  height:112px;
+  text-align: center;
+}
+.card-title{
+     font-family: var(--font-base);
+     font-size: 26px;
+}
+.card-price{
+    font-family: var(--font-base);
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn-wrap{
+  margin-top:16px;
+}
+
+
+ /* card pricing  */
+.card-pricing{
+ max-width: 420px;
+ display: flex;
+ flex-direction: column;
+ background-color: var(--gray-100);
+ padding: 60px;
+ border-radius: 10px;
+ border: 1px solid var(--gray-300);
+}
+.category{
+ text-transform: uppercase;
+}
+
+.category-price{
+ text-align: center;
+ margin-bottom: 99px;
+}
+
+.category-price ul{
+ margin-top: 30px;
+}
+
+.category-price ul li{
+  list-style: none;
+}
+
+.btn-wrap{
+ display: flex;
+ justify-content: center;
+}
+
+.card-pricing:hover .category {
+  color: var(--primary);
+}
+
+.card-pricing:hover .btn.btn-secondary{
+ background-color: var(--primary);
+}
+
 
 /* card articles */
 
