@@ -15,6 +15,24 @@
     padding: 100px 0;
 }
 
+/* Card Count CSS Start */
+
+.col-card-4 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+@media (min-width: 640px) {
+    .col-card-4{
+        justify-content: space-between;
+    }
+}
+
+/* Card Count CSS End */
+
+
 /* Our Recent Post Css Start */
 
 .col-card-3 {
