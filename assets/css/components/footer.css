@@ -15,6 +15,7 @@
 }
 
 .footer-contain h2 {
+    padding-bottom: 20px;
     color: var(--white);
     text-transform: uppercase;
     margin-bottom: 0px;
@@ -24,14 +25,13 @@
 
 .footer-list {
     display: flex;
-    align-items: center;
+    align-items: start;
     gap: 8px;
 
 }
 
 
 .box-body {
-    margin-top: 9px;
     max-width: 420px;
     color: var(--white);
 
