@@ -49,16 +49,19 @@
 
 /* card info*/
 .card-container{
+    max-width:1300px;
     display:flex;
     flex-wrap:wrap;
     gap: 20px;
   justify-content: center;
+  margin :0 auto;
 }
 .card-info{
-    max-width:310px;
-    height:332px;
-    padding: 1rem;
-  box-sizing: border-box;   
+    max-width: 420px;
+    overflow: hidden;
+    text-align: center;
+
+     
 }
 .card-info figure img {
   width: 310px;
