@@ -15,6 +15,19 @@
   padding: 100px 0;
 }
 
+/* services section styling  */
+
+.services-content h2{
+ padding-bottom: 30px;
+}
+
+.services{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 20px;
+}
+
 /* Card Count CSS Start */
 
 .col-card-4 {

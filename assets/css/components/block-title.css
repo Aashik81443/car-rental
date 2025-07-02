@@ -2,6 +2,7 @@
 
 .block-title h2 {
   margin-bottom: 0;
+  text-transform: uppercase;
 }
 
 .block-title.type-white h2 {
