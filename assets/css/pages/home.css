@@ -90,6 +90,9 @@ p {
   flex-direction: column;
   padding-bottom: 20px;
 }
+input::placeholder {
+  font-size: 1rem;
+}
 .find-flex-item input {
   padding-top: 18px;
   padding-bottom: 18px;
