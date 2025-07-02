@@ -107,6 +107,10 @@ p {
   width: 100%;
 }
 
+input::placeholder{
+    font-size: 1rem;
+}
+
 @media (min-width: 1024px) {
   .find-flex-container {
     display: flex;
