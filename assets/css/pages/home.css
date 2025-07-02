@@ -17,34 +17,33 @@
 
 /* services section styling  */
 
-.services-content h2{
- padding-bottom: 30px;
+.services-content h2 {
+  padding-bottom: 30px;
 }
 
-.services{
- display: flex;
- flex-wrap: wrap;
- justify-content: center;
- gap: 20px;
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
 /* Card Count CSS Start */
 
 .col-card-4 {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 
 @media (min-width: 640px) {
-    .col-card-4{
-        justify-content: space-between;
-    }
+  .col-card-4 {
+    justify-content: space-between;
+  }
 }
 
 /* Card Count CSS End */
-
 
 /* Our Recent Post Css Start */
 
@@ -61,9 +60,8 @@
   margin-right: auto;
 }
 
-
 /* Header section */
-.top-header {
+.top-section {
   background-image: url("../../images/header-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -131,7 +129,7 @@ p {
 
 /* Contact */
 .block-contact {
-  background-image: url("../../images/contact-bg.png");
+  background-image: url("../../images/contact-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
