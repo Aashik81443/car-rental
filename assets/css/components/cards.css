@@ -48,37 +48,40 @@
 }
 
 /* card info*/
-.card-info{
-    max-width:310px;
-    height:332px;
+.card-info {
+    max-width: 310px;
+    height: 332px;
     padding: 1rem;
-  box-sizing: border-box;
+    box-sizing: border-box;
 
-    
+
 }
+
 .card-info figure img {
-  width: 310px;
-  height: 210px;
-  display: block;
-  object-fit: cover;
-  border-radius: 8px;
+    width: 310px;
+    height: 210px;
+    display: block;
+    object-fit: cover;
+    border-radius: 8px;
 
 
-   
+
 }
+
 .card-content {
-  width: 100%;
-  text-align: center;
-  padding: 0.5rem 0;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
 }
+
 .card-content span {
     margin-top: 4px;
     font-size: 12px;
     display: inline-block;
 }
 
-.btn-wrap{
-  margin-top:16px;
+.btn-wrap {
+    margin-top: 16px;
 }
 
 
@@ -150,33 +153,46 @@
     text-transform: uppercase;
     margin-top: 6px;
 }
+
 /*Renting process section*/
-.card-rent{
-    padding: 120px 0px;  
-    display: flex; 
+.card-rent {
+    padding: 120px 0px;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap:2rem;
-   
+    gap: 2rem;
+
+}
+
+.card-process span {
+    letter-spacing: 2px;
+    color: var(--gray-700);
+    text-transform: uppercase;
+}
+
+.card-process p {
+    line-height: 32px;
+    color: var(--gray-500);
 }
 
 @media (min-width: 640px) {
-    .card-rent{
-        justify-content:space-between;
+    .card-rent {
+        justify-content: space-between;
         gap: 0;
     }
 }
 
-.card-process{
-    height:110px;
-    width:310px;
+.card-process {
+    height: 110px;
+    width: 310px;
     box-sizing: border-box;
 
 }
+
 .card-img img {
-  margin-bottom: 14px;
-  width: 50px;
-  height: 50px;
+    margin-bottom: 14px;
+    width: 50px;
+    height: 50px;
 }
 
 @media (min-width: 640px) {
