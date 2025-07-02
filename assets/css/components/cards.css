@@ -48,42 +48,62 @@
 }
 
 /* card info*/
-.card-info {
-    max-width: 310px;
-    height: 332px;
-    padding: 1rem;
-    box-sizing: border-box;
-
-
+.card-container{
+    max-width:1300px;
+    display:flex;
+    flex-wrap:wrap;
+    gap: 20px;
+  justify-content: center;
+  margin :0 auto;
 }
-
-.card-info figure img {
-    width: 310px;
-    height: 210px;
-    display: block;
-    object-fit: cover;
-    border-radius: 8px;
-
-
-
-}
-
-.card-content {
-    width: 100%;
+.card-info{
+    max-width: 420px;
+    overflow: hidden;
     text-align: center;
-    padding: 0.5rem 0;
-}
 
+     
+}
+.card-info figure img {
+  width: 310px;
+  height: 210px;
+  display: block;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.card-content {
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem 0;
+  
+}
 .card-content span {
     margin-top: 4px;
     font-size: 12px;
     display: inline-block;
 }
 
-.btn-wrap {
-    margin-top: 16px;
+.btn-wrap{
+  margin-top:16px;
 }
-
+.card-type{
+    display:flex;
+    gap:12px;
+    justify-content:center;
+     margin-bottom: 20px;
+     margin-top:20px;
+}
+.card-type-component{
+    gap:10;
+    border:1px solid var(--black);
+    padding:10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.card-type-component.active {
+  background-color: var(--black);
+  color: var(--white);
+  border-color: transparent;
+}
 
 /* card pricing  */
 .card-pricing {
