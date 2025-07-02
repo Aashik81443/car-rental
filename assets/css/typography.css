@@ -28,6 +28,7 @@ h2,
 .h2 {
   font-size: 34px;
   line-height: 1.26;
+  text-transform: uppercase;
 }
 
 h3,
