@@ -152,12 +152,21 @@
 }
 /*Renting process section*/
 .card-rent{
-    background-color:var(--gray-100);
-    padding: 120px 310px;  
+    padding: 120px 0px;  
     display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
     gap:2rem;
    
 }
+
+@media (min-width: 640px) {
+    .card-rent{
+        justify-content:space-between;
+        gap: 0;
+    }
+}
+
 .card-process{
     height:110px;
     width:310px;
