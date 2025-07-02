@@ -51,6 +51,10 @@
     font-weight: 700;
     border-bottom:4px solid var(--gray-300); 
 }
+.btn-wrap .btn-link:hover {
+  background-color: var(--black);
+  color:var(--white);
+}
 
 /* Responsive */
 
